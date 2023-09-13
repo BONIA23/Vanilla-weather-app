@@ -2,14 +2,6 @@ body {
   font-family: Arial, Helvetica, sans-serif, sans-serif;
 }
 
-.weather-app {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 5px;
-}
-
 h1 {
   font-size: 24px;
   color: #777777;
@@ -27,9 +19,34 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
+  text-transform: capitalize;
   color: rgb(135, 135, 135);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
-  text-align: left;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: red;
 }
